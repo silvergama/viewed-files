@@ -1,0 +1,23 @@
+{
+  "name": "Files Viewed",
+  "description": "Files Viewed in Pull Request from GitHub",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab", 
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "eye.png",
+    "32": "eye.png",
+    "48": "eye.png",
+    "128": "eye.png"
+  }
+}
